@@ -52,3 +52,25 @@ then click on commit changes
 b) We can PULL the code from github and see the changes
  #git pull
  #cat one.htm
+
+
+
+2
+Install and configure Jenkins
+a) To manually build the code
+1) In the browser type localhost:8080
+2) Click on new item , enter item name and select free style project , click on ok button
+3) Then click on source code management and select none.
+ In the build option select Execute shell and type any command 
+ EX:- echo “hello” 
+4) Then click on apply and save
+5) Then click on build now option
+6) In the build history go to console output to see the output
+b) To pull the code from github
+1) Click on new item, enter item name and select free style project , click on ok button
+2) Click on source code management, select git and enter URL of git repository
+3) Then click on apply and save
+4) Then click on build now option
+5) In the build history go to console output to see the output
+
+
